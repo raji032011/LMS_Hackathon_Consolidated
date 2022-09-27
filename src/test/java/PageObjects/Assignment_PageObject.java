@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Base.BaseClass;
-import Utilities.ReadConfig;
+import utilities.ReadConfig;
 
 public class Assignment_PageObject extends BaseClass {
 
@@ -150,12 +150,3 @@ public class Assignment_PageObject extends BaseClass {
 	}
 	
 }
-
-	
-		
-
-
-
-		
-
-
