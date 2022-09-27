@@ -1,0 +1,1828 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 26, 2022 08:51:43 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@driversetup</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Page</p>
+            <p class="text-sm">
+              <span>8:51:44 PM</span> / <span>00:01:04:617</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Page</h5>
+<span class='badge badge-success'>09.26.2022 8:51:44 PM</span>
+<span class='badge badge-danger'>09.26.2022 8:52:49 PM</span>
+<span class='badge badge-default'>00:01:04:617</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validating the url</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_login.user_is_on_browser()">
+                <span>Given user is  on browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_login.user_opens_lms_website()">
+                <span>When user opens LMS Website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_login.user_is_on_login_page()">
+                <span>Then user is on Login Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>Validating with different login credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Validating with different login credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User lands on Login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters email "", password "" and Error "Please enter fields"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User successfully  login</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Manage Program']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HOME', ip: '192.168.1.84', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8af2177b7a4cdaa4a9dd1a1841fe2149, findElement {using=xpath, value=//div[normalize-space()='Manage Program']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Diksha\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60404/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8af2177b7a4cdaa4a9dd1a1841fe2149
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy37.isDisplayed(Unknown Source)
+	at PageObjects.LoginPageHome_PageObject.HomePageLabelVisibility(LoginPageHome_PageObject.java:28)
+	at StepDefinition.SD_login.user_successfully_login(SD_login.java:78)
+	at ✽.User successfully  login(file:///C:/Users/Diksha/eclipse-workspace2/LMS_Hackathon_Consolidated/src/test/resources/Features/3Login.feature:11)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>Validating with different login credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User lands on Login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters email "lms", password "" and Error "Please enter fields"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User successfully  login</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Manage Program']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HOME', ip: '192.168.1.84', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8af2177b7a4cdaa4a9dd1a1841fe2149, findElement {using=xpath, value=//div[normalize-space()='Manage Program']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Diksha\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60404/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8af2177b7a4cdaa4a9dd1a1841fe2149
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy37.isDisplayed(Unknown Source)
+	at PageObjects.LoginPageHome_PageObject.HomePageLabelVisibility(LoginPageHome_PageObject.java:28)
+	at StepDefinition.SD_login.user_successfully_login(SD_login.java:78)
+	at ✽.User successfully  login(file:///C:/Users/Diksha/eclipse-workspace2/LMS_Hackathon_Consolidated/src/test/resources/Features/3Login.feature:11)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Validating with different login credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User lands on Login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters email "", password "lms" and Error "Please enter fields"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User successfully  login</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Validating with different login credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User lands on Login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When User enters email "lms", password "lms" and Error "Please enter fields"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HOME', ip: '192.168.1.84', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8af2177b7a4cdaa4a9dd1a1841fe2149, findElement {using=xpath, value=//input[@id='username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Diksha\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60404/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8af2177b7a4cdaa4a9dd1a1841fe2149
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy37.clear(Unknown Source)
+	at PageObjects.LoginPage_PageObject.setUserName(LoginPage_PageObject.java:38)
+	at StepDefinition.SD_login.user_enters_email_password_and_error(SD_login.java:59)
+	at ✽.User enters email "lms", password "lms" and Error "Please enter fields"(file:///C:/Users/Diksha/eclipse-workspace2/LMS_Hackathon_Consolidated/src/test/resources/Features/3Login.feature:10)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User successfully  login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Manage Batch</p>
+            <p class="text-sm">
+              <span>8:52:49 PM</span> / <span>00:00:02:298</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Manage Batch</h5>
+<span class='badge badge-success'>09.26.2022 8:52:49 PM</span>
+<span class='badge badge-danger'>09.26.2022 8:52:51 PM</span>
+<span class='badge badge-default'>00:00:02:298</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Manage Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_at_manage_program_page()">
+                <span>Given user is at Manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_click_on_batch_button()">
+                <span>When user click on Batch button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_at_manage_batch_page()">
+                <span>Then user is at Manage Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="29"><span class="badge log pass-bg mr-2">Pass</span>Validating Delete button on Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_display_manage_program_page()">
+                <span>Given user display Manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_enter_batch_button()">
+                <span>When user enter Batch button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_validate_delete_button_is_disable()">
+                <span>And user validate Delete button is Disable</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Manage Batch Search Box</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_at_batch_page()">
+                <span>Given user is at Batch Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_enter_batch_name_in_search_box()">
+                <span>When user enter Batch Name in search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.records_of_batch_name_is_displayed()">
+                <span>Then records of Batch Name is displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Batch Details Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_at_batch_page_with_search_record()">
+                <span>Given user is at Batch page with search record</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_clicks_on_edit_button()">
+                <span>When user clicks on Edit button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_lands_on_batch_details_page()">
+                <span>Then user lands on Batch Details page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>Edit Batch Details Page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="42"><span class="badge log pass-bg mr-2">Pass</span>Edit Batch Details Page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Batch Details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user edit Name and status</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click Cancel button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user can see message </span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>Edit Batch Details Page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Batch Details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user edit Name and status</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click Save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user can see message Successfully Batch Updated</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>validate Edit Batch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_on_batch_page_with_edited_record()">
+                <span>Given user is on Batch Page with edited record</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_clear_the_search_box()">
+                <span>When user clear the search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_enter_the_edited_data()">
+                <span>And user enter the edited data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_should_see_the_edited_record()">
+                <span>Then user should see the edited record</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_clear_search_user_is_at_manage_batch_page()">
+                <span>And user clear search -user is at Manage batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Delete Manage Batch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_at_manage_batch_page_with_multiple_check_boxes()">
+                <span>Given user is at Manage Batch Page with multiple check boxes</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_click_multiple_check_boxes_to_delete_batch()">
+                <span>When user click multiple check boxes to delete Batch</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_click_on_delete_button_next_to_search_box()">
+                <span>Then user click on Delete button next to search box</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="62"><span class="badge log pass-bg mr-2">Pass</span>Confirm Deletion Popup</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_is_at_confirm_deletion_popup_page()">
+                <span>Given user is at Confirm deletion popup Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_click_on_yes_button()">
+                <span>When user click on Yes button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Batch1.user_see_the_message_successfully_deleted()">
+                <span>Then user see the message- Successfully Deleted</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="66"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Batch Add New Batch</p>
+            <p class="text-sm">
+              <span>8:52:51 PM</span> / <span>00:00:01:740</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Batch Add New Batch</h5>
+<span class='badge badge-success'>09.26.2022 8:52:51 PM</span>
+<span class='badge badge-danger'>09.26.2022 8:52:53 PM</span>
+<span class='badge badge-default'>00:00:01:740</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="67"><span class="badge log pass-bg mr-2">Pass</span>Click New Batch button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_is_at_manage_batch_page_with_a_new_batch_button()">
+                <span>Given user is at Manage Batch page with ANew Batch button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_clicks_on_a_new_batch_button()">
+                <span>When user clicks on ANew Batch button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.batch_details_page_popup_with_all_empty_fields()">
+                <span>Then Batch Details Page popup with all empty fields</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="71"><span class="badge log pass-bg mr-2">Pass</span>Enter Empty Username</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_is_at_new_add_batch_details_page()">
+                <span>Given user is at New Add Batch Details Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_enter_empty_username_click_save_button()">
+                <span>When user enter empty username - click save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.message_display_name_is_required()">
+                <span>Then message display - Name is required</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="75"><span class="badge log pass-bg mr-2">Pass</span>Click cancel button on New Batch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_is_at_new_add_batch_details_page1()">
+                <span>Given user is at New Add Batch Details Page1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_click_cancel_button()">
+                <span>When user  click cancel button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.batch_details_popup_is_disappears()">
+                <span>Then Batch Details popup is disappears</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>Add New Batch Details</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_is_at_batch_details_adding_all_details_in_popup_page()">
+                <span>Given user is at Batch Details adding all details in popup page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_enters_all_details()">
+                <span>When user enters all details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_clicks_on_save_button()">
+                <span>Then user clicks on save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_see_message_successful_batch_created()">
+                <span>And user see message -Successful batch created</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="84"><span class="badge log pass-bg mr-2">Pass</span>Verify New Batch Added</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_is_at_manage_batch_page2()">
+                <span>Given user is at Manage Batch page2</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_verify_add_batch_in_search_box()">
+                <span>When user verify  Add batch in search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchNewAdd.user_should_see_new_batch_data_on_manage_batch_page()">
+                <span>Then user should see new batch data on Manage batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="88"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pagination & Order</p>
+            <p class="text-sm">
+              <span>8:52:53 PM</span> / <span>00:00:01:132</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pagination & Order</h5>
+<span class='badge badge-success'>09.26.2022 8:52:53 PM</span>
+<span class='badge badge-danger'>09.26.2022 8:52:54 PM</span>
+<span class='badge badge-default'>00:00:01:132</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=88</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Naviagte to First Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_batch_page()">
+                <span>Given user is at Manage Batch Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_next_link_of_pagination()">
+                <span>When user click next link of Pagination</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_user_is_at_first_page()">
+                <span>Then validate user is at First page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Naviagte to Previous Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_batch_page_with_first_page_details()">
+                <span>Given user is at Batch Page with First page details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_next_for_pagination()">
+                <span>When user click < Previous for Pagination</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_user_is_at_second_page()">
+                <span>Then validate user is at Second Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="97"><span class="badge log pass-bg mr-2">Pass</span>Naviagte to Last Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_batch_page_with_second_page_details()">
+                <span>Given user is at Batch Page with Second page details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_last_link_for_pagination()">
+                <span>When user click last link for pagination</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_user_is_at_last_page()">
+                <span>Then validate user is at last Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="101"><span class="badge log pass-bg mr-2">Pass</span>Naviagte back First Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_on_last_page_of_batch_details()">
+                <span>Given user is on Last Page of Batch Details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_first_link_for_pagination()">
+                <span>When user click on  First link for pagination</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_is_on_first_page_of_batch()">
+                <span>Then validate is on First page of Batch</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Ascending Order by Batch Name</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_batch_name()">
+                <span>Given user is at Manage Details page with Batch Name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_batch_name()">
+                <span>When user click on Batch Name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_name_in_ascending_order()">
+                <span>Then validate Batch Name in Ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>Ascending Order by Batch Description</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_batch_description()">
+                <span>Given user is at Manage Details page with Batch Description</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_batch_description()">
+                <span>When user click on Batch Description</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_description_in_ascending_order()">
+                <span>Then validate Batch Description in Ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>Ascending Order by Batch Status</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_batch_status()">
+                <span>Given user is at Manage Details page with Batch Status</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_batch_status()">
+                <span>When user click on Batch Status</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_status_in_ascending_order()">
+                <span>Then validate Batch Status in Ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="117"><span class="badge log pass-bg mr-2">Pass</span>Ascending Order by No Of Classes</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_no_of_classes()">
+                <span>Given user is at Manage Details page with NoOfClasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_no_of_classes()">
+                <span>When user click on NoOfClasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_no_of_classes_in_ascending_order()">
+                <span>Then validate NoOfClasses in Ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="121"><span class="badge log pass-bg mr-2">Pass</span>Descending Order by Batch Name</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_batch_name()">
+                <span>Given user is at Manage Details page with Batch Name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_batch_name()">
+                <span>When user click on Batch Name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_name_in_descending_order()">
+                <span>Then validate Batch Name in Descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="125"><span class="badge log pass-bg mr-2">Pass</span>Descending Order by Batch Description</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_batch_description()">
+                <span>Given user is at Manage Details page with Batch Description</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_batch_description()">
+                <span>When user click on Batch Description</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_description_in_descending_order()">
+                <span>Then validate Batch Description in Descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="129"><span class="badge log pass-bg mr-2">Pass</span>Descending Order by Batch Status</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_batch_status()">
+                <span>Given user is at Manage Details page with Batch Status</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_batch_status()">
+                <span>When user click on Batch Status</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_status_in_descending_order()">
+                <span>Then validate Batch Status in Descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="133"><span class="badge log pass-bg mr-2">Pass</span>Descending Order by No Of Classes</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_is_at_manage_details_page_with_no_of_classes()">
+                <span>Given user is at Manage Details page with NoOfClasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.user_click_on_no_of_classes()">
+                <span>When user click on NoOfClasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_BatchOrder.validate_batch_no_of_classes_in_descending_order()">
+                <span>Then validate Batch NoOfClasses in Descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="137"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Manageuser Page</p>
+            <p class="text-sm">
+              <span>8:52:54 PM</span> / <span>00:00:03:184</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Manageuser Page</h5>
+<span class='badge badge-success'>09.26.2022 8:52:54 PM</span>
+<span class='badge badge-danger'>09.26.2022 8:52:57 PM</span>
+<span class='badge badge-default'>00:00:03:184</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=137</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="138"><span class="badge log fail-bg mr-2">Fail</span>Manage User Page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_at_manage_batch_page1()">
+                <span>Given user is at Manage Batch page1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinition.SD_User1.user_click_on_user_button()">
+                <span>When user click on User button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-kvs-c154="" mat-button="" a="" routerlink="/user" class="mat-focus-indicator mat-button mat-button-base" tabindex="0" ng-reflect-router-link="/user">...</button> is not clickable at point (932, 32). Other element would receive the click: <div role="alert" aria-live="assertive" aria-atomic="true" class="p-toast-message-content ng-tns-c90-20">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HOME', ip: '192.168.1.84', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8af2177b7a4cdaa4a9dd1a1841fe2149, clickElement {id=4043c188-3b56-4bc8-a440-dfeff4783979}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Diksha\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60404/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8af2177b7a4cdaa4a9dd1a1841fe2149)] -> xpath: //button[@ng-reflect-router-link='/user']]
+Session ID: 8af2177b7a4cdaa4a9dd1a1841fe2149
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy37.click(Unknown Source)
+	at PageObjects.User_PageObject.userButton(User_PageObject.java:141)
+	at StepDefinition.SD_User1.user_click_on_user_button(SD_User1.java:38)
+	at ✽.user click on User button(file:///C:/Users/Diksha/eclipse-workspace2/LMS_Hackathon_Consolidated/src/test/resources/Features/7User.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.SD_User1.user_is_at_manage_user_page2()">
+                <span>Then user is at Manage User page2</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="142"><span class="badge log pass-bg mr-2">Pass</span>Validating Delete button on User Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_display_user_program_page()">
+                <span>Given user display user program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_enter_user_button()">
+                <span>When user enter user button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_validate_delete_button_is_disable1()">
+                <span>And user validate Delete button is Disable1</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="146"><span class="badge log pass-bg mr-2">Pass</span>verifying for heading fields of user</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_on_the_manage_user_page()">
+                <span>Given User is on the Manage user page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_clicks_user_button1()">
+                <span>When user clicks user button1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_verify_for_the_different_header_fields_of_users()">
+                <span>Then User verify for the different header fields of users</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="150"><span class="badge log pass-bg mr-2">Pass</span>Manage User Search Box</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_at_user_page()">
+                <span>Given user is at user Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_enter_username_in_search_box()">
+                <span>When user enter username in search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.matching_records_of_username_is_displayed()">
+                <span>Then Matching records of username is displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="154"><span class="badge log pass-bg mr-2">Pass</span>Userdetails Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_at_userpage_with_search_record()">
+                <span>Given user is at userpage with search record</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_clicks_on_edit_button1()">
+                <span>When user clicks on Edit button1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_lands_on_userdetails_page()">
+                <span>Then user lands on userdetails page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="158"><span class="badge log pass-bg mr-2">Pass</span>Userdetails page verification</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_at_user_details_page()">
+                <span>Given user is at user details page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_verifies_for_submit_and_cancel_button()">
+                <span>When user verifies for submit and cancel button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_clicks_cancel_button()">
+                <span>Then user clicks cancel button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="162"><span class="badge log pass-bg mr-2">Pass</span>Adding new user in manage user page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_at_user_details_page_to_add_new_user()">
+                <span>Given user is at user details page to add new user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_clicks_add_new_button()">
+                <span>When user clicks Add new button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_details_window_for_adding_user_is_displayed()">
+                <span>Then User details window for adding user is displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="166"><span class="badge log pass-bg mr-2">Pass</span>Add new user cancel funtionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_is_at_user_details_page_after_clicking_add_user()">
+                <span>Given user is at user details page after clicking Add user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_clicks_x_button_at_the()">
+                <span>When user clicks x button at the</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_User1.user_details_window_for_adding_user_is_closed()">
+                <span>Then User details window for adding user is closed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="170"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Attendence</p>
+            <p class="text-sm">
+              <span>8:52:57 PM</span> / <span>00:00:00:297</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Attendence</h5>
+<span class='badge badge-success'>09.26.2022 8:52:57 PM</span>
+<span class='badge badge-danger'>09.26.2022 8:52:57 PM</span>
+<span class='badge badge-default'>00:00:00:297</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=170</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="171"><span class="badge log pass-bg mr-2">Pass</span>Click attendence button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_is_at_manage_batch_page_with_no_of_classes_in_descending_order()">
+                <span>Given user is at Manage Batch Page with NoOfClasses in Descending order</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_click_on_attendence_button_on_menu_bar()">
+                <span>When user click on Attendence button on Menu Bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_lands_on_attendence_page()">
+                <span>Then user lands on Attendence page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="175"><span class="badge log pass-bg mr-2">Pass</span>Validating Attendence Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_is_at_attendence_page()">
+                <span>Given user is at Attendence page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_see_window_with_text_attendence_works()">
+                <span>When user see window with text- Attendence Works</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_click_on_logout()">
+                <span>Then user click on logout</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.SD_Attendence.user_lands_on_login_page()">
+                <span>And user lands on Login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:51:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Then User successfully login</a>
+<div class="">
+<span class="badge badge-default">Login Page.Validating with different login credentials.Then User successfully login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:52:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Then User successfully login</a>
+<div class="">
+<span class="badge badge-default">Login Page.Validating with different login credentials.Then User successfully login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:52:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='22'>When User enters email "lms", password "lms" and Error "Please enter fields"</a>
+<div class="">
+<span class="badge badge-default">Login Page.Validating with different login credentials.When User enters email "lms", password "lms" and Error "Please enter fields"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:52:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='137' id='140'>When user click on User button</a>
+<div class="">
+<span class="badge badge-default">Manageuser Page.Manage User Page.When user click on User button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@driversetup</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@driversetup</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:51:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validating the url</a>
+<div class="">
+<span class="badge badge-default">Login Page.Validating the url</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 26, 2022 08:51:43 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 26, 2022 08:52:57 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='33%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='90%'><b>37</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='9%'><b>4</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='95%'><b>123</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>4</b> steps failed,
+<b>2</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login Page":64.617,"Manage Batch":2.298,"Batch Add New Batch":1.74,"Pagination & Order":1.132,"Manageuser Page":3.184,"Attendence":0.297
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@driversetup</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 37,
+failChild: 4,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 123,
+failGrandChild: 4,
+warningGrandChild: 0,
+skipGrandChild: 2,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
