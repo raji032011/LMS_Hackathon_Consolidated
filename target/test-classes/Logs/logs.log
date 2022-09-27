@@ -307,3 +307,83 @@
 2022-Sep-26 20:52:57.098 [main] INFO  SD_User1.java - The Tittle of Manage batch page is :LMS
 2022-Sep-26 20:52:57.450 [main] INFO  SD_User1.java -  User details window is displayed to add the details
 2022-Sep-26 20:52:57.608 [main] INFO  Add new user window is closed - fail
+2022-Sep-27 16:28:56.402 [main] INFO  BaseClass.java - ---------- Base Class - SetUpDriver Started ----------
+2022-Sep-27 16:28:56.441 [main] INFO  BaseClass.java - Browser Type is: Chrome
+2022-Sep-27 16:28:56.442 [main] INFO  BaseClass.java - Base URL is: http://lms-frontend-phase2.herokuapp.com/login
+2022-Sep-27 16:29:17.362 [main] INFO  BaseClass.java - ---------- Base Class - SetUpDriver Completed ----------
+2022-Sep-27 16:31:02.811 [main] INFO  BaseClass.java - ---------- Base Class - SetUpDriver Started ----------
+2022-Sep-27 16:31:02.832 [main] INFO  BaseClass.java - Browser Type is: Chrome
+2022-Sep-27 16:31:02.832 [main] INFO  BaseClass.java - Base URL is: http://lms-frontend-phase2.herokuapp.com/login
+2022-Sep-27 16:31:14.028 [main] INFO  BaseClass.java - ---------- Base Class - SetUpDriver Completed ----------
+2022-Sep-27 16:54:26.188 [main] INFO  BaseClass.java - ---------- Base Class - SetUpDriver Started ----------
+2022-Sep-27 16:54:26.190 [main] INFO  BaseClass.java - Browser Type is: Chrome
+2022-Sep-27 16:54:26.190 [main] INFO  BaseClass.java - Base URL is: http://lms-frontend-phase2.herokuapp.com/login
+2022-Sep-27 16:54:39.500 [main] INFO  BaseClass.java - ---------- Base Class - SetUpDriver Completed ----------
+2022-Sep-27 16:55:48.052 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:48.055 [main] INFO  SD_Homepage.java - LMS @When text on page is displayed
+2022-Sep-27 16:55:48.214 [main] INFO  SD_Homepage.java - LMS @Then text on page is displayed : true
+2022-Sep-27 16:55:48.278 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:48.451 [main] INFO  SD_Homepage.java - LMS @When user clicks on the prog: 
+2022-Sep-27 16:55:48.541 [main] INFO  SD_Homepage.java - LMS @Then user clicks on the text on the prog 
+2022-Sep-27 16:55:48.655 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:49.121 [main] INFO  SD_Homepage.java - LMS @Then user clicks on the batch 
+2022-Sep-27 16:55:49.673 [main] INFO  SD_Homepage.java - LMS @When user clicks on the batch 
+2022-Sep-27 16:55:49.753 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:50.056 [main] INFO  SD_Homepage.java - LMS @When user clicks on the user 
+2022-Sep-27 16:55:50.519 [main] INFO  SD_Homepage.java - LMS @Then user clicks on the user 
+2022-Sep-27 16:55:50.652 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:51.022 [main] INFO  SD_Homepage.java - LMS @When user clicks on the assignment 
+2022-Sep-27 16:55:51.662 [main] INFO  SD_Homepage.java - LMS @Then user clicks on the assignment 
+2022-Sep-27 16:55:51.830 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:52.071 [main] INFO  SD_Homepage.java - LMS @When user clicks on the attendence 
+2022-Sep-27 16:55:52.651 [main] INFO  SD_Homepage.java - LMS @Then user clicks on the attendence 
+2022-Sep-27 16:55:52.900 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:52.922 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:53.319 [main] INFO  SD_Homepage.java - LMS @When user clicks on the prog: 
+2022-Sep-27 16:55:53.355 [main] INFO  SD_Homepage.java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:53.682 [main] INFO  SD_Program4 .java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:53.890 [main] INFO  SD_Program4 .java - LMS @When text on search page is displayed
+2022-Sep-27 16:55:54.112 [main] INFO  SD_Program4 .java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:54.456 [main] INFO  SD_Program4 .java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:54.533 [main] INFO  SD_Program4 .java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:54.573 [main] INFO  SD_Program4 .java - LMS @Given User is on Homepage LMS
+2022-Sep-27 16:55:54.699 [main] INFO  SD_Batch1.java - The Tittle of Manage Progrm page is :LMS
+2022-Sep-27 16:55:54.879 [main] INFO  SD_Batch1.java - The Tittle of Manage Batch page is :LMS
+2022-Sep-27 16:55:55.054 [main] INFO  SD_Batch1.java - The URL of Manage Progrm page is :http://lms-frontend-phase2.herokuapp.com/batch
+2022-Sep-27 16:55:55.497 [main] INFO  SD_Batch1.java - The Tittle of Manage Batch page is :http://lms-frontend-phase2.herokuapp.com/batch
+2022-Sep-27 16:55:55.901 [main] INFO  SD_Batch1.java - Result String is: sdet55
+2022-Sep-27 16:55:55.901 [main] INFO  SD_Batch1.java - String Exists
+2022-Sep-27 16:55:56.053 [main] INFO  SD_Batch1.java - Entries Text is :Showing 1 to 5 of 28 entries
+2022-Sep-27 16:55:57.308 [main] INFO  SD_Batch1.java - Main window handle is CDwindow-7C65AC77A72DDFF801E65493AB8D7BA9
+2022-Sep-27 16:55:57.361 [main] INFO  SD_Batch1.java - Child window handle is[CDwindow-7C65AC77A72DDFF801E65493AB8D7BA9]
+2022-Sep-27 17:00:31.407 [main] INFO  SD_BatchOrder.java - User is on Page number:2
+2022-Sep-27 17:00:31.786 [main] INFO  SD_BatchOrder.java - Validate Second Page Entries:Showing 6 to 10 of 23 entries
+2022-Sep-27 17:00:32.462 [main] INFO  SD_BatchOrder.java - User is on Page number:1
+2022-Sep-27 17:00:32.589 [main] INFO  SD_BatchOrder.java - Validate Previous Page Entries:Showing 1 to 5 of 23 entries
+2022-Sep-27 17:00:32.833 [main] INFO  SD_BatchOrder.java - User is on Page number:5
+2022-Sep-27 17:00:32.926 [main] INFO  SD_BatchOrder.java - Validate Last Page Entries:Showing 21 to 23 of 23 entries
+2022-Sep-27 17:00:33.090 [main] INFO  SD_BatchOrder.java - Validate First Page Entries:Showing 1 to 5 of 23 entries
+2022-Sep-27 17:00:33.782 [main] INFO  SD_BatchOrder.java - Batch Names are sorted in Ascending Order
+2022-Sep-27 17:00:34.382 [main] INFO  SD_BatchOrder.java - Status Ascending order ACTIVE
+2022-Sep-27 17:00:34.383 [main] INFO  SD_BatchOrder.java - Ascending Order is Correct
+2022-Sep-27 17:00:34.712 [main] INFO  SD_BatchOrder.java - No Of Classes is in Descending  order
+2022-Sep-27 17:00:35.800 [main] INFO  SD_BatchOrder.java - Status Ascending order INACTIVE
+2022-Sep-27 17:00:35.800 [main] INFO  SD_BatchOrder.java - Descending Order is not Correct
+2022-Sep-27 17:00:36.286 [main] INFO  SD_BatchOrder.java - No Of Classes is in Descending  order
+2022-Sep-27 17:00:36.345 [main] INFO  SD_Program6 .java - LMS @Given User is on programpage LMS
+2022-Sep-27 17:01:46.469 [main] INFO  SD_Program6 .java - LMS @Given User is on programpage LMS
+2022-Sep-27 17:02:57.009 [main] INFO  SD_Program6 .java - LMS @Given User is on programpage LMS
+2022-Sep-27 17:04:07.538 [main] INFO  SD_User1.java - The Tittle of Manage batch page is :LMS
+2022-Sep-27 17:04:08.983 [main] INFO  SD_User1.java - The Tittle of Manage batch page is :LMS
+2022-Sep-27 17:04:09.342 [main] INFO  SD_User1.java - The URL of Manage User page is :http://lms-frontend-phase2.herokuapp.com/user
+2022-Sep-27 17:04:10.383 [main] INFO  SD_User1.java - The user is in Manage user page :http://lms-frontend-phase2.herokuapp.com/user
+2022-Sep-27 17:04:11.552 [main] INFO  SD_User1.java - The Tittle of Manage batch page is :LMS
+2022-Sep-27 17:04:11.769 [main] INFO  SD_User1.java - Matching users are displayed
+2022-Sep-27 17:04:12.017 [main] INFO  SD_User1.java - Total number of users :Showing 1 to 4 of 4 entries
+1
+2022-Sep-27 17:04:13.263 [main] INFO  SD_User1.java - User details window pops up
+2022-Sep-27 17:04:13.569 [main] INFO  SD_User1.java - Userdetails window is opened
+2022-Sep-27 17:04:13.942 [main] INFO  SD_User1.java - The Tittle of Manage batch page is :LMS
+2022-Sep-27 17:04:15.651 [main] INFO  SD_User1.java -  User details window is displayed to add the details
+2022-Sep-27 17:04:16.121 [main] INFO  Add new user window is closed - fail
+2022-Sep-27 17:04:16.346 [main] INFO  SD_User1.java - The Tittle of Manage batch page is :LMS

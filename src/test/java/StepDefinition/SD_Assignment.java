@@ -9,7 +9,7 @@ import org.testng.asserts.SoftAssert;
 
 import Base.BaseClass;
 import PageObjects.Assignment_PageObject;
-import Utilities.ReadConfig;
+import utilities.ReadConfig;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

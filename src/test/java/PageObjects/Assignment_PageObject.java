@@ -7,8 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Base.BaseClass;
-import Utilities.ReadConfig;
-import io.cucumber.java.en.When;
+import utilities.ReadConfig;
 
 public class Assignment_PageObject extends BaseClass {
 
@@ -151,43 +150,3 @@ public class Assignment_PageObject extends BaseClass {
 	}
 	
 }
-
-
-In Page objects
-//Search program
-
-@FindBy(xpath = "//input[@placeholder='Search...']")
-WebElement searchprogramb;
-public void searchprogramBox() {
-	searchprogramb.sendKeys(TestProgram);
-}
-}
-
-//utilities/readconfig
-
-public String getsearchprogram() {
-	return prop.getProperty("searchprogram");
-}
-
-//configuration/config properties
-
-searchprogram=TestProgram
-
-//page objects
-
-public String searchprogram = config.getsearchprogram();
-
-
-//in step definition
-
-@When("user enter username in search box")
-public void user_enter_username_in_search_box() {
-	
-	upo.searchprogramBox();
-
-}
-
-	
-		
-
-

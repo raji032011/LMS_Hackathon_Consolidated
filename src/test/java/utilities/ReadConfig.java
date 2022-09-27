@@ -77,4 +77,14 @@ public class ReadConfig {
 		return prop.getProperty("searchuser");
 
 	}
+	public String getsearchassign() {
+		return prop.getProperty("searchassign");
+	}
+	public String assigngrade() {
+		return prop.getProperty("assigngrade");
+	}
+	public String assigndescription() {
+		return prop.getProperty("assigndesc");
+	}
+
 }
