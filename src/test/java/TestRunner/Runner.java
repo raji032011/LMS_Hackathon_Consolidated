@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 		dryRun = false, 
 		features = "src/test/resources/Features", 
 		glue = {"StepDefinition", "Hooks"},
-		plugin={"pretty","html:taget/HtmlReports.html","json:target/JSONReports/reports.json","junit:target/JUnitReports/report.xml"})
+		plugin={"pretty","html:target/HtmlReports.html","json:target/JSONReports/reports.json","junit:target/JUnitReports/report.xml"})
 
 
 public class Runner  {
